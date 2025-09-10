@@ -1,0 +1,167 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vaishnavi H | Portfolio Resume</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fff;
+      color: #333;
+      scroll-behavior: smooth;
+    }
+    header {
+      background: #008080;
+      color: #fff;
+      padding: 2.5rem;
+      text-align: center;
+      animation: fadeIn 2s ease-in;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.2rem;
+    }
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1.1rem;
+    }
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeInUp 1s ease forwards;
+    }
+    section:nth-of-type(1) { animation-delay: 0.2s; }
+    section:nth-of-type(2) { animation-delay: 0.4s; }
+    section:nth-of-type(3) { animation-delay: 0.6s; }
+    section:nth-of-type(4) { animation-delay: 0.8s; }
+    section:nth-of-type(5) { animation-delay: 1s; }
+    section:nth-of-type(6) { animation-delay: 1.2s; }
+    section:nth-of-type(7) { animation-delay: 1.4s; }
+    section:nth-of-type(8) { animation-delay: 1.6s; }
+    h2 {
+      color: #008080;
+      border-bottom: 2px solid #008080;
+      display: inline-block;
+      margin-bottom: 1rem;
+    }
+    ul {
+      padding-left: 1.2rem;
+    }
+    a {
+      color: #008080;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    a:hover {
+      color: #005f5f;
+    }
+    .skills, .achievements, .cert-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+    }
+    .skills div, .cert-grid div {
+      background: #f9f9f9;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .skills div:hover, .cert-grid div:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+    footer {
+      background: #f4f4f4;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+      font-size: 0.9rem;
+      animation: fadeIn 2s ease-in;
+    }
+
+    /* Animations */
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Vaishnavi H</h1>
+    <p>📞 +91 8618300924 | 
+       <a href="mailto:vaishnaviharshavardhana@gmail.com" style="color:#fff;">Email</a> | 
+       <a href="https://linkedin.com/in/vaishnavi-h-2683a7217" target="_blank" style="color:#fff;">LinkedIn</a>
+    </p>
+  </header>
+
+  <section>
+    <h2>Professional Summary</h2>
+    <p>Data-driven marketing and growth professional with 2+ years of experience across data analytics, reporting, and digital engagement. Skilled in community building, digital marketing, and BI tools, with proven success in improving efficiency, scaling insights, and driving audience engagement.</p>
+  </section>
+
+  <section>
+    <h2>Experience</h2>
+    <ul>
+      <li><b>Wetstock Management Analyst – Gilbarco Veeder-Root (Dec 2024 – Present)</b><br>Built Grafana dashboards & Salesforce pipelines. Resolved issues 30% faster.</li>
+      <li><b>Reporting Analyst – PwC AC (May 2022 – Sep 2022)</b><br>Designed Power BI & OTBI dashboards. Improved reporting accuracy by 20%.</li>
+      <li><b>Associate – PwC AC (Sep 2021 – May 2022)</b><br>Centralized HR data reporting, boosting productivity by 15%. Trained 25+ interns.</li>
+      <li><b>Marketing Intern – Arni Garden Boutique (Jul 2020 – Dec 2020)</b><br>Designed digital campaigns, boosted startup revenue & client acquisition.</li>
+      <li><b>Community Coordinator – PSR Events (2017 – 2019)</b><br>Organized community events, strengthening client relationships.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <ul>
+      <li>Smart Shopping Assistant – Discount-tracking tool for branded shopping.</li>
+      <li>Automated Expense Manager – Analytics pipeline (Excel → Power BI).</li>
+      <li>Fabric Intelligence – Researched 200+ fabrics for sourcing trends.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Education</h2>
+    <p>B.Tech in Electrical & Electronics Engineering – PES University (2017–2021) | CGPA: 8.51/10<br>Minor in Computer Science</p>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <div class="skills">
+      <div><b>Growth & Marketing:</b> Community Mgmt, Social Media, Digital Marketing, SEO (basic)</div>
+      <div><b>Analytics & Tools:</b> SQL, Power BI, Tableau, Salesforce, Grafana, Excel</div>
+      <div><b>Soft Skills:</b> Communication, Storytelling, Persuasion, Collaboration</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Certifications</h2>
+    <div class="cert-grid">
+      <div>
+        <b>AI & Analytics</b><br>IBM AI Fundamentals<br>Data Analytics with Generative AI<br>Power BI Projects<br>Intro to Data Science<br>Data Science Essentials with Python<br>Data Analytics Essentials
+      </div>
+      <div>
+        <b>Cloud & Data</b><br>IBM Python for Data Science<br>Data Visualization with Power BI<br>Oracle Cloud (App Dev, Integration, Digital Assistant)
+      </div>
+      <div>
+        <b>Academic & Domain</b><br>Minor in CS<br>Finance (Economics, Stock Market)<br>Smart Power Control<br>Wellness Certification
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Vaishnavi H | Portfolio Resume</p>
+  </footer>
+</body>
+</html>
