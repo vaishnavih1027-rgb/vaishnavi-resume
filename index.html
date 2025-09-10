@@ -1,129 +1,137 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Vaishnavi H | Portfolio Resume</title>
+  <title>Hire Vaishnavi H | Marketing & Analytics Portfolio</title>
   <style>
-    body { font-family: 'Segoe UI', sans-serif; margin: 0; padding: 0; background: #fff; color: #333; line-height: 1.6; }
-    header { background: #008080; color: #fff; padding: 2.5rem; text-align: center; }
-    header h1 { margin: 0; font-size: 2.5rem; }
-    header p { margin-top: 0.5rem; font-size: 1.1rem; }
-    section { padding: 2rem; max-width: 950px; margin: auto; }
-    h2 { color: #008080; border-bottom: 2px solid #008080; display: inline-block; margin-bottom: 1rem; }
-    ul { padding-left: 1.2rem; }
-    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; }
-    .card { background: #f9f9f9; padding: 1rem; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); transition: all 0.3s ease; }
-    .card:hover { transform: translateY(-5px); box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
+    body { font-family: 'Segoe UI', sans-serif; margin: 0; padding: 0; background: #fff; color: #333; line-height: 1.6; scroll-behavior: smooth; }
+    
+    /* Hero Section */
+    header {
+      background: linear-gradient(135deg,#008080,#006666);
+      color: #fff; text-align: center; padding: 5rem 2rem;
+      background-image: url("https://images.unsplash.com/photo-1556761175-129418cb2dfe?fit=crop&w=1400&q=80");
+      background-size: cover; background-position: center;
+      position: relative; z-index: 1;
+    }
+    header::after {
+      content: ""; position: absolute; inset: 0;
+      background: rgba(0, 0, 0, 0.6); z-index: -1;
+    }
+    header h1 { font-size: 2.8rem; margin-bottom: 1rem; }
+    header p { font-size: 1.3rem; margin: 0.5rem 0; }
+    header .cta { margin-top: 1.5rem; }
+    .cta a { background: #ffdd99; color: #333; padding: 0.8rem 1.5rem; border-radius: 6px; font-weight: bold; text-decoration: none; transition: all 0.3s ease; }
+    .cta a:hover { background: #ffc14d; }
+
+    /* Navbar */
+    nav { position: sticky; top: 0; background: #006666; padding: 0.7rem; z-index: 1000; text-align: center; }
+    nav a { color: #fff; margin: 0 1rem; text-decoration: none; font-weight: bold; transition: color 0.3s ease; }
+    nav a:hover { color: #ffdd99; }
+
+    /* Sections */
+    section { padding: 3rem 2rem; max-width: 1000px; margin: auto; }
+    h2 { color: #008080; margin-bottom: 1rem; text-align: center; }
+
+    /* Features / Cards */
+    .features, .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin-top: 2rem; }
+    .card {
+      background: #f9f9f9; padding: 1.5rem; border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+      transition: all 0.3s ease; text-align: center;
+    }
+    .card img { width: 50px; margin-bottom: 1rem; }
+    .card:hover { transform: translateY(-6px); box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
+
+    /* Metrics */
+    .metrics { display: flex; justify-content: space-around; text-align: center; margin-top: 2rem; flex-wrap: wrap; }
+    .metric { font-size: 1.5rem; font-weight: bold; color: #008080; margin: 1rem; }
+    .metric span { display: block; font-size: 0.9rem; font-weight: normal; color: #555; }
+
     footer { background: #f4f4f4; text-align: center; padding: 1rem; margin-top: 2rem; font-size: 0.9rem; }
-    a { color: #008080; text-decoration: none; }
-    a:hover { text-decoration: underline; }
   </style>
 </head>
 <body>
-  <header>
-    <h1>Vaishnavi H</h1>
-    <p>📞 +91 8618300924 | 
-       <a href="mailto:vaishnaviharshavardhana@gmail.com" style="color:#fff;">Email</a> | 
-       <a href="https://linkedin.com/in/vaishnavi-h-2683a7217" target="_blank" style="color:#fff;">LinkedIn</a>
-    </p>
+  <!-- Navigation -->
+  <nav>
+    <a href="#about">About</a>
+    <a href="#features">Why Me</a>
+    <a href="#projects">Case Studies</a>
+    <a href="#skills">Skills</a>
+    <a href="#certs">Endorsements</a>
+    <a href="#contact">Hire Me</a>
+  </nav>
+
+  <!-- Hero Pitch -->
+  <header id="about">
+    <h1>🚀 Meet Vaishnavi H – Your Next Marketing Growth Product</h1>
+    <p>Dynamic Marketing & Analytics Professional | Data + Creativity = Growth</p>
+    <p>📞 +91 8618300924 | 📧 <a href="mailto:vaishnaviharshavardhana@gmail.com" style="color:#fff;">Email</a> | 🔗 <a href="https://linkedin.com/in/vaishnavi-h-2683a7217" target="_blank" style="color:#fff;">LinkedIn</a></p>
+    <div class="cta"><a href="#contact">📩 Hire Me Today</a></div>
   </header>
 
-  <section>
-    <h2>Professional Summary</h2>
-    <p>Dynamic Marketing & Data Analytics professional with 2+ years of experience in analytics, reporting, community engagement, and digital marketing. Skilled in community-driven insights, advocacy, and building thriving online communities across platforms. Experienced in organic visibility, keyword research, creator collaborations, and storytelling formats that drive engagement and thought leadership. Proficient in SQL, Power BI, Tableau, and Oracle HCM Cloud with success in building dashboards, validating data, and automating workflows. Certified in AI, Data Science, Cloud, and Digital Marketing with hands-on projects bridging insights and growth strategies. Strong understanding of digital culture, optimization, and high-growth startup environments.</p>
-  </section>
-
-  <section>
-    <h2>Professional Experience</h2>
-    <ul>
-      <li><b>Wet-Stock Management Support Analyst – Gilbarco Veeder-Root (Dec 2024 – Present)</b><br>
-        - Written company pitch to crack projects using statistical data analysis<br>
-        - Retrieved and validated datasets using SQL & Salesforce pipelines<br>
-        - Applied root-cause analysis to resolve variances & alarms<br>
-        - Partnered with teams to integrate Salesforce data, cutting manual effort by 30%<br>
-        - Improved incident response efficiency by 30%</li>
-      <li><b>Associate 2 | Oracle HCM Data Analyst – PwC AC (May 2022 – Sep 2022)</b><br>
-        - Delivered customized OTBI reports/dashboards in Oracle Fusion HCM (Core HR, Payroll, Benefits, Performance)<br>
-        - Analyzed HCM datasets and built SQL queries, functions, and procedures<br>
-        - Centralized data to increase employee productivity<br>
-        - Provided technical support & troubleshooting for OTBI reports</li>
-      <li><b>Associate | Oracle HCM Data Analyst – PwC AC (Sep 2021 – May 2022)</b><br>
-        - Developed HR dashboards & centralized reporting, boosting productivity by 15%<br>
-        - Conducted HR/benefits data analysis using Power BI & Excel<br>
-        - Enhanced Fast formulas for higher quality outputs<br>
-        - Coordinated PwC intern training program for 25+ interns</li>
-      <li><b>Innovation & Marketing Lead – Arni Garden Boutique (Jul 2020 – Dec 2020)</b><br>
-        - Designed digital marketing campaigns & improved revenue via client acquisition<br>
-        - Executed social media promotions to attract new clients</li>
-      <li><b>Community & Events Coordinator – PSR Events (2017 – 2019)</b><br>
-        - Hosted events & engaged audiences, strengthening community relationships<br>
-        - Delivered memorable client experiences through creative campaigns</li>
-      <li><b>In-Plant Trainee – Hindustan Aeronautical Limited (Jan 2020)</b><br>
-        - Studied applications of electrical & electronics in aviation systems</li>
-    </ul>
-  </section>
-
-  <section>
-    <h2>Project Portfolio</h2>
-    <ul>
-      <li>Smart Shopping Assistant – Designed a discount-tracking tool for consumer engagement</li>
-      <li>Automated Expense Manager – Built Excel → Power BI pipeline to track daily expenses</li>
-      <li>Fabric Intelligence – Analysed 200+ fabrics for market trends & sourcing insights</li>
-    </ul>
-  </section>
-
-  <section>
-    <h2>Technical Skills</h2>
-    <div class="grid">
-      <div class="card"><b>Social & Growth:</b><br>Community Building, Social Media Campaigns, SEO (on-page optimization, keyword research), Digital Marketing, Advocacy, UGC Campaigns</div>
-      <div class="card"><b>Analytics:</b><br>Python, SQL, PL/SQL, Power BI, Tableau, Grafana</div>
-      <div class="card"><b>Databases:</b><br>Oracle, SQL Server</div>
-      <div class="card"><b>Cloud Platforms:</b><br>Oracle HCM Cloud, Oracle Dev6, Google Suite</div>
-      <div class="card"><b>AI/ML:</b><br>Generative AI, ChatGPT</div>
-      <div class="card"><b>Other Tools:</b><br>Excel, Insite360, Talk-desk, MS Office</div>
-      <div class="card"><b>Additional:</b><br>High-growth startup exposure, Engagement strategies, Optimization</div>
+  <!-- Value Proposition -->
+  <section id="features">
+    <h2>🌟 Why Choose Vaishnavi?</h2>
+    <div class="features">
+      <div class="card"><img src="https://img.icons8.com/color/96/analytics.png"/><b>📈 Data-Driven Growth</b><br>Blend of analytics + storytelling to drive audience engagement & visibility.</div>
+      <div class="card"><img src="https://img.icons8.com/color/96/idea.png"/><b>💡 Creative Campaigns</b><br>Designed social media, SEO, and UGC strategies for startups & corporates.</div>
+      <div class="card"><img src="https://img.icons8.com/color/96/automation.png"/><b>⚡ Efficiency Builder</b><br>Automated workflows & dashboards → reduced manual effort by 30%.</div>
+      <div class="card"><img src="https://img.icons8.com/color/96/conference.png"/><b>🤝 Community Builder</b><br>Expertise in engagement, client acquisition & advocacy strategies.</div>
+    </div>
+    <div class="metrics">
+      <div class="metric">30%<span>Faster Issue Resolution</span></div>
+      <div class="metric">20%<span>Improved Reporting Accuracy</span></div>
+      <div class="metric">25+<span>Interns Trained</span></div>
+      <div class="metric">3X<span>Campaign Engagement</span></div>
     </div>
   </section>
 
-  <section>
-    <h2>Certifications</h2>
+  <!-- Case Studies -->
+  <section id="projects">
+    <h2>📊 Case Studies (Projects)</h2>
     <div class="grid">
-      <div class="card"><b>AI & Analytics</b><br>IBM AI Fundamentals<br>Intro to Data Science<br>Data Science Essentials with Python<br>Data Analytics Essentials<br>Introduction to API & RESTful API</div>
-      <div class="card"><b>Cloud & Data</b><br>IBM Python for Data Science<br>Data Visualization with Power BI<br>Oracle Cloud (App Dev, Integration, Digital Assistant)<br>Power BI Projects</div>
-      <div class="card"><b>Digital Marketing</b><br>Intro to Digital Marketing<br>Digital Marketing Tool Basics<br>SEO for Beginners</div>
-      <div class="card"><b>Academic & Domain</b><br>Minor in CS<br>Finance (Economics, Stock Market)<br>Smart Power Control<br>Wellness Certification</div>
+      <div class="card"><img src="https://img.icons8.com/color/96/shopping-cart.png"/><b>Smart Shopping Assistant</b><br>Built discount-tracking assistant → optimized consumer engagement.</div>
+      <div class="card"><img src="https://img.icons8.com/color/96/money.png"/><b>Automated Expense Manager</b><br>Excel → Power BI pipeline with UPI/CC integration, weekly dashboards.</div>
+      <div class="card"><img src="https://img.icons8.com/color/96/fabric.png"/><b>Fabric Intelligence</b><br>Analyzed 200+ fabrics for sourcing trends & visualization dashboards.</div>
     </div>
   </section>
 
-  <section>
-    <h2>Education</h2>
-    <p>B. Tech in Electrical & Electronics Engineering – PES University (2017–2021) | CGPA: 8.51/10<br>
-    Minor in Computer Science & Engineering</p>
+  <!-- Skills -->
+  <section id="skills">
+    <h2>🛠️ Skills</h2>
+    <div class="grid">
+      <div class="card"><img src="https://img.icons8.com/color/96/marketing.png"/><b>Growth & Marketing:</b><br>Community Mgmt, Campaigns, SEO, Advocacy</div>
+      <div class="card"><img src="https://img.icons8.com/color/96/sql.png"/><b>Analytics:</b><br>Python, SQL, Power BI, Tableau, Grafana</div>
+      <div class="card"><img src="https://img.icons8.com/color/96/cloud.png"/><b>Cloud:</b><br>Oracle HCM Cloud, Google Suite</div>
+      <div class="card"><img src="https://img.icons8.com/color/96/artificial-intelligence.png"/><b>AI & Tools:</b><br>Generative AI, ChatGPT, Excel, Salesforce</div>
+    </div>
   </section>
 
-  <section>
-    <h2>Key Achievements</h2>
-    <ul>
-      <li>Reduced incident resolution time by 30%</li>
-      <li>Improved reporting accuracy by 20%</li>
-      <li>Trained & onboarded 25+ interns</li>
-      <li>Designed campaigns that boosted client acquisition</li>
-    </ul>
+  <!-- Certifications -->
+  <section id="certs">
+    <h2>📜 Endorsements (Certifications)</h2>
+    <div class="grid">
+      <div class="card"><img src="https://img.icons8.com/color/96/certificate.png"/><b>AI & Analytics</b><br>IBM AI Fundamentals, Data Science Essentials, RESTful API, Power BI Projects</div>
+      <div class="card"><img src="https://img.icons8.com/color/96/data-configuration.png"/><b>Cloud & Data</b><br>IBM Python for Data Science, Data Viz with Power BI, Oracle Cloud Dev</div>
+      <div class="card"><img src="https://img.icons8.com/color/96/seo.png"/><b>Digital Marketing</b><br>Intro to Digital Marketing, SEO for Beginners</div>
+      <div class="card"><img src="https://img.icons8.com/color/96/university.png"/><b>Academic & Domain</b><br>Minor in CS, Finance, Smart Power Control, Wellness Certification</div>
+    </div>
   </section>
 
-  <section>
-    <h2>Soft Skills</h2>
-    <p>Analytical Thinking, Problem Solving, Team Collaboration, Strong Communication, Adaptability</p>
-  </section>
-
-  <section>
-    <h2>Languages</h2>
-    <p>English, Hindi, Kannada, Telugu</p>
+  <!-- Contact CTA -->
+  <section id="contact">
+    <h2>🚀 Ready to Grow With Me?</h2>
+    <p>Let’s collaborate to take your brand to the next level.</p>
+    <p>📧 <a href="mailto:vaishnaviharshavardhana@gmail.com">vaishnaviharshavardhana@gmail.com</a><br>
+       🔗 <a href="https://linkedin.com/in/vaishnavi-h-2683a7217" target="_blank">linkedin.com/in/vaishnavi-h-2683a7217</a><br>
+       📞 +91 8618300924</p>
+    <div class="cta"><a href="mailto:vaishnaviharshavardhana@gmail.com">📩 Hire Vaishnavi</a></div>
   </section>
 
   <footer>
-    <p>© 2025 Vaishnavi H | Interactive Resume Website</p>
+    <p>© 2025 Vaishnavi H | Marketing Growth Pitch Website</p>
   </footer>
 </body>
 </html>
